@@ -36,7 +36,8 @@ The balanced accuracy, precision and recall scores for the two risk esemble mach
 	- Balanced Accuracy = 66%
 	- Precision = 99%
 	- Recall = 100%
-	
+
+## Recommendations
 Both techniques yielded almost identical results. We are looking at credit risk, so the precision of actual positives and false negatives is going to be more more important than sensitivity. The recommended technique in this case would be AdaBoost. AdaBoost is an ensemble learning method that uses an iterative approach to learn from the mistakes of weak classifiers, then turn them into strong ones. AdaBoost can be applied over any classifier to learn from its shortcomings and propose a more accurate model, it works by putting more weight on difficult to classify instances and less on those already handled well. AdaBoost algorithms can be used for both classification and regression problems.
 ### Appendix
 ### Credit Risk Resampling Techniques
