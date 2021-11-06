@@ -24,7 +24,7 @@ The balanced accuracy, precision and recall scores for each of the four machine 
 	- Precision = 99%
 	- Recall = 57%
 
-The SMOTE oversampling technique demonstrated the best results, combination (over and under) sampling had the worst results. However the recall scores for each method indicate that there is room for improvement. Credit risk ensemble techniques were subsequently used to improve the accuracy of the results.	
+The SMOTEENN oversampling technique demonstrated the best results, combination (over and under) sampling had the worst results. However the recall scores for each method indicate that there is room for improvement. Credit risk ensemble techniques were subsequently used to improve the accuracy of the results.	
 ####  Credit Risk Ensemble Techiques
 The balanced accuracy, precision and recall scores for the two risk esemble machine learning models were as follows:
 - Balanced Random Forest Classifier
